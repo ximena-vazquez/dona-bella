@@ -1,0 +1,12 @@
+.btn-white{
+	background-color: #8d0d0d;
+	padding: 10px 10px;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+
+.btn-white:hover{
+	background-color: #5c0b0b;
+}

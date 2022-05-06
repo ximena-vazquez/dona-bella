@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap');
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+p{}
+h1,h2,h3{
+	font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 30px;
+	color: #3f3941;
+}
+
+h3{
+	font-size: 25px;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}

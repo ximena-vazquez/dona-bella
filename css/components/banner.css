@@ -1,0 +1,49 @@
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), 
+	url(../../images/cover.JPG);
+    background-size: 1500px;
+    background-position: center;
+    background-position-y: 559px;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+.banner h1{
+	color: white;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.banner h2{
+	color: white;
+	font-size: ;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+
+@media(max-width: 1200px){
+	.banner{
+		background-size: 1200px;
+	}
+}
+
+@media(max-width: 900px){
+	.banner{
+		background-size: 900px;
+	}
+}
+
+@media(max-width: 700px){
+	.banner{
+		background-size: 800px;
+	}
+}
+
+@media(max-width: 500px){
+	.banner{
+		background-size: cover;
+	}
+}
